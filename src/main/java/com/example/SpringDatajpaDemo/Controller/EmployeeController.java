@@ -64,6 +64,7 @@ public class EmployeeController {
 	@GetMapping("/all")
 	public List<Employee>findAll(){
 		logger.warn("employee details fully retrive");
+		logger.error("Demo error");
 		return employeeService.findAllEmp();
 	}
 	@DeleteMapping("/del/{id}")
