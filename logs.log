@@ -1,0 +1,647 @@
+2024-06-26T10:59:51.983+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] c.e.S.SpringDatajpaDemoApplication       : Starting SpringDatajpaDemoApplication using Java 21 with PID 5024 (C:\Users\ADMIN\Downloads\SpringDatajpaDemo\target\classes started by ADMIN in C:\Users\ADMIN\Downloads\SpringDatajpaDemo)
+2024-06-26T10:59:52.022+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] c.e.S.SpringDatajpaDemoApplication       : The following 1 profile is active: "h2"
+2024-06-26T10:59:52.251+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-26T10:59:52.252+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-26T10:59:54.705+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-26T10:59:54.839+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 110 ms. Found 1 JPA repository interface.
+2024-06-26T10:59:57.022+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-06-26T10:59:57.049+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-26T10:59:57.050+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-06-26T10:59:57.170+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-26T10:59:57.172+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4917 ms
+2024-06-26T10:59:57.508+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-26T10:59:58.562+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@17c05878
+2024-06-26T10:59:58.568+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-26T10:59:58.587+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/kk'
+2024-06-26T10:59:59.074+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-26T10:59:59.413+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-26T10:59:59.563+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-06-26T11:00:00.383+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-26T11:00:00.554+05:30  WARN 5024 --- [SpringDatajpaDemo] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-26T11:00:00.556+05:30  WARN 5024 --- [SpringDatajpaDemo] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-06-26T11:00:02.195+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-26T11:00:02.359+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-26T11:00:03.275+05:30  WARN 5024 --- [SpringDatajpaDemo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-26T11:00:04.556+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-26T11:00:04.595+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoints beneath base path '/actuator'
+2024-06-26T11:00:04.760+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-06-26T11:00:04.785+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] c.e.S.SpringDatajpaDemoApplication       : Started SpringDatajpaDemoApplication in 13.881 seconds (process running for 14.78)
+2024-06-26T11:03:05.283+05:30  INFO 5024 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-26T11:03:05.284+05:30  INFO 5024 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-26T11:03:05.290+05:30  INFO 5024 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2024-06-26T11:03:05.399+05:30  WARN 5024 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.multipart.MaxUploadSizeExceededException: Maximum upload size exceeded]
+2024-06-26T11:03:05.420+05:30  WARN 5024 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.multipart.MaxUploadSizeExceededException: Maximum upload size exceeded]
+2024-06-26T11:05:21.089+05:30  INFO 5024 --- [SpringDatajpaDemo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-06-26T11:05:21.121+05:30  INFO 5024 --- [SpringDatajpaDemo] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-26T11:05:21.131+05:30  INFO 5024 --- [SpringDatajpaDemo] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-06-26T11:05:21.167+05:30  INFO 5024 --- [SpringDatajpaDemo] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-06-26T11:05:21.374+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] c.e.S.SpringDatajpaDemoApplication       : Starting SpringDatajpaDemoApplication using Java 21 with PID 5024 (C:\Users\ADMIN\Downloads\SpringDatajpaDemo\target\classes started by ADMIN in C:\Users\ADMIN\Downloads\SpringDatajpaDemo)
+2024-06-26T11:05:21.377+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] c.e.S.SpringDatajpaDemoApplication       : The following 1 profile is active: "h2"
+2024-06-26T11:05:22.428+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-26T11:05:22.453+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 1 JPA repository interface.
+2024-06-26T11:05:22.850+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-06-26T11:05:22.854+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-26T11:05:22.855+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-06-26T11:05:22.925+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-26T11:05:22.925+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1537 ms
+2024-06-26T11:05:23.191+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-06-26T11:05:23.415+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1eb8e887
+2024-06-26T11:05:23.415+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-06-26T11:05:23.415+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/kk'
+2024-06-26T11:05:23.681+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-26T11:05:23.770+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-06-26T11:05:23.861+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-26T11:05:23.864+05:30  WARN 5024 --- [SpringDatajpaDemo] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-26T11:05:23.865+05:30  WARN 5024 --- [SpringDatajpaDemo] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-06-26T11:05:24.222+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-26T11:05:24.260+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-26T11:05:24.666+05:30  WARN 5024 --- [SpringDatajpaDemo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-26T11:05:25.791+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-26T11:05:25.816+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoints beneath base path '/actuator'
+2024-06-26T11:05:25.895+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-06-26T11:05:25.917+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] c.e.S.SpringDatajpaDemoApplication       : Started SpringDatajpaDemoApplication in 4.626 seconds (process running for 335.912)
+2024-06-26T11:05:25.930+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-06-26T11:05:33.566+05:30  INFO 5024 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-26T11:05:33.568+05:30  INFO 5024 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-26T11:05:33.573+05:30  INFO 5024 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2024-06-26T11:05:33.617+05:30  WARN 5024 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.multipart.MaxUploadSizeExceededException: Maximum upload size exceeded]
+2024-06-26T11:05:33.619+05:30  WARN 5024 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.multipart.MaxUploadSizeExceededException: Maximum upload size exceeded]
+2024-06-26T11:06:24.846+05:30  INFO 5024 --- [SpringDatajpaDemo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-06-26T11:06:24.865+05:30  INFO 5024 --- [SpringDatajpaDemo] [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-26T11:06:24.866+05:30  INFO 5024 --- [SpringDatajpaDemo] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2024-06-26T11:06:24.880+05:30  INFO 5024 --- [SpringDatajpaDemo] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2024-06-26T11:06:25.007+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] c.e.S.SpringDatajpaDemoApplication       : Starting SpringDatajpaDemoApplication using Java 21 with PID 5024 (C:\Users\ADMIN\Downloads\SpringDatajpaDemo\target\classes started by ADMIN in C:\Users\ADMIN\Downloads\SpringDatajpaDemo)
+2024-06-26T11:06:25.008+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] c.e.S.SpringDatajpaDemoApplication       : The following 1 profile is active: "h2"
+2024-06-26T11:06:25.598+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-26T11:06:25.615+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 1 JPA repository interface.
+2024-06-26T11:06:25.907+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-06-26T11:06:25.910+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-26T11:06:25.911+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-06-26T11:06:25.955+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-26T11:06:25.956+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 942 ms
+2024-06-26T11:06:26.052+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2024-06-26T11:06:26.080+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5719d3a
+2024-06-26T11:06:26.080+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2024-06-26T11:06:26.081+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/kk'
+2024-06-26T11:06:26.217+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-26T11:06:26.227+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-06-26T11:06:26.244+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-26T11:06:26.247+05:30  WARN 5024 --- [SpringDatajpaDemo] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-26T11:06:26.249+05:30  WARN 5024 --- [SpringDatajpaDemo] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-06-26T11:06:26.388+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-26T11:06:26.434+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-26T11:06:26.679+05:30  WARN 5024 --- [SpringDatajpaDemo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-26T11:06:27.390+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-26T11:06:27.409+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoints beneath base path '/actuator'
+2024-06-26T11:06:27.455+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-06-26T11:06:27.474+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] c.e.S.SpringDatajpaDemoApplication       : Started SpringDatajpaDemoApplication in 2.512 seconds (process running for 397.469)
+2024-06-26T11:06:27.481+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-06-26T11:06:47.144+05:30  INFO 5024 --- [SpringDatajpaDemo] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-26T11:06:47.145+05:30  INFO 5024 --- [SpringDatajpaDemo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-26T11:06:47.146+05:30  INFO 5024 --- [SpringDatajpaDemo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-06-26T11:06:47.211+05:30  INFO 5024 --- [SpringDatajpaDemo] [http-nio-8080-exec-2] c.e.S.Config.ExampleInterseptor          : -----------preHandler----------
+2024-06-26T11:06:47.211+05:30  INFO 5024 --- [SpringDatajpaDemo] [http-nio-8080-exec-2] c.e.S.Config.ExampleInterseptor          : RequestUrl:/jpa/up
+2024-06-26T11:06:47.254+05:30  INFO 5024 --- [SpringDatajpaDemo] [http-nio-8080-exec-2] c.e.S.Controller.EmployeeController      : {}number of file uploaded2
+2024-06-26T11:06:47.278+05:30  INFO 5024 --- [SpringDatajpaDemo] [http-nio-8080-exec-2] c.e.S.Config.ExampleInterseptor          : ---------------postHandler------------------
+2024-06-26T11:06:47.278+05:30  INFO 5024 --- [SpringDatajpaDemo] [http-nio-8080-exec-2] c.e.S.Config.ExampleInterseptor          : Request URI :/jpa/up
+2024-06-26T11:06:47.279+05:30  INFO 5024 --- [SpringDatajpaDemo] [http-nio-8080-exec-2] c.e.S.Config.ExampleInterseptor          : --------------afterCompletion----------------
+2024-06-26T11:06:47.279+05:30  INFO 5024 --- [SpringDatajpaDemo] [http-nio-8080-exec-2] c.e.S.Config.ExampleInterseptor          : Request URI :/jpa/up
+2024-06-26T11:06:47.279+05:30  INFO 5024 --- [SpringDatajpaDemo] [http-nio-8080-exec-2] c.e.S.Config.ExampleInterseptor          : executed Time==67
+2024-06-26T11:09:23.339+05:30  INFO 5024 --- [SpringDatajpaDemo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-06-26T11:09:23.371+05:30  INFO 5024 --- [SpringDatajpaDemo] [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-26T11:09:23.377+05:30  INFO 5024 --- [SpringDatajpaDemo] [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2024-06-26T11:09:23.392+05:30  INFO 5024 --- [SpringDatajpaDemo] [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2024-06-26T11:09:23.655+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] c.e.S.SpringDatajpaDemoApplication       : Starting SpringDatajpaDemoApplication using Java 21 with PID 5024 (C:\Users\ADMIN\Downloads\SpringDatajpaDemo\target\classes started by ADMIN in C:\Users\ADMIN\Downloads\SpringDatajpaDemo)
+2024-06-26T11:09:23.658+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] c.e.S.SpringDatajpaDemoApplication       : The following 1 profile is active: "h2"
+2024-06-26T11:09:24.267+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-26T11:09:24.285+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 1 JPA repository interface.
+2024-06-26T11:09:25.397+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-06-26T11:09:25.402+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-26T11:09:25.403+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-06-26T11:09:25.493+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-26T11:09:25.494+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1824 ms
+2024-06-26T11:09:25.618+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2024-06-26T11:09:25.646+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@12ec87c7
+2024-06-26T11:09:25.647+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2024-06-26T11:09:25.647+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/kk'
+2024-06-26T11:09:25.726+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-26T11:09:25.733+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-06-26T11:09:25.751+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-26T11:09:25.754+05:30  WARN 5024 --- [SpringDatajpaDemo] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-26T11:09:25.755+05:30  WARN 5024 --- [SpringDatajpaDemo] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-06-26T11:09:25.849+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-26T11:09:25.869+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-26T11:09:26.092+05:30  WARN 5024 --- [SpringDatajpaDemo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-26T11:09:26.659+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-26T11:09:26.691+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoints beneath base path '/actuator'
+2024-06-26T11:09:26.799+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-06-26T11:09:26.818+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] c.e.S.SpringDatajpaDemoApplication       : Started SpringDatajpaDemoApplication in 3.273 seconds (process running for 576.813)
+2024-06-26T11:09:26.826+05:30  INFO 5024 --- [SpringDatajpaDemo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-06-26T12:14:19.779+05:30  INFO 21740 --- [SpringDatajpaDemo] [restartedMain] c.e.S.SpringDatajpaDemoApplication       : Starting SpringDatajpaDemoApplication using Java 21 with PID 21740 (C:\Users\ADMIN\Downloads\SpringDatajpaDemo\target\classes started by ADMIN in C:\Users\ADMIN\Downloads\SpringDatajpaDemo)
+2024-06-26T12:14:19.789+05:30  INFO 21740 --- [SpringDatajpaDemo] [restartedMain] c.e.S.SpringDatajpaDemoApplication       : The following 1 profile is active: "h2"
+2024-06-26T12:14:19.957+05:30  INFO 21740 --- [SpringDatajpaDemo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-26T12:14:19.957+05:30  INFO 21740 --- [SpringDatajpaDemo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-26T12:14:23.127+05:30  INFO 21740 --- [SpringDatajpaDemo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-26T12:14:23.256+05:30  INFO 21740 --- [SpringDatajpaDemo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 98 ms. Found 1 JPA repository interface.
+2024-06-26T12:14:25.567+05:30  INFO 21740 --- [SpringDatajpaDemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-06-26T12:14:25.598+05:30  INFO 21740 --- [SpringDatajpaDemo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-26T12:14:25.599+05:30  INFO 21740 --- [SpringDatajpaDemo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-06-26T12:14:25.796+05:30  INFO 21740 --- [SpringDatajpaDemo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-26T12:14:25.797+05:30  INFO 21740 --- [SpringDatajpaDemo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5838 ms
+2024-06-26T12:14:26.140+05:30  INFO 21740 --- [SpringDatajpaDemo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-26T12:14:27.395+05:30  INFO 21740 --- [SpringDatajpaDemo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@92e30ca
+2024-06-26T12:14:27.415+05:30  INFO 21740 --- [SpringDatajpaDemo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-26T12:14:27.448+05:30  INFO 21740 --- [SpringDatajpaDemo] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/kk'
+2024-06-26T12:14:28.376+05:30  INFO 21740 --- [SpringDatajpaDemo] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-26T12:14:28.553+05:30  INFO 21740 --- [SpringDatajpaDemo] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-26T12:14:28.689+05:30  INFO 21740 --- [SpringDatajpaDemo] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-06-26T12:14:29.694+05:30  INFO 21740 --- [SpringDatajpaDemo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-26T12:14:29.889+05:30  WARN 21740 --- [SpringDatajpaDemo] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-26T12:14:29.898+05:30  WARN 21740 --- [SpringDatajpaDemo] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-06-26T12:14:31.850+05:30  INFO 21740 --- [SpringDatajpaDemo] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-26T12:14:32.017+05:30  INFO 21740 --- [SpringDatajpaDemo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-26T12:14:33.615+05:30  WARN 21740 --- [SpringDatajpaDemo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-26T12:14:36.478+05:30  INFO 21740 --- [SpringDatajpaDemo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-26T12:14:36.510+05:30  INFO 21740 --- [SpringDatajpaDemo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoints beneath base path '/actuator'
+2024-06-26T12:14:36.810+05:30  INFO 21740 --- [SpringDatajpaDemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-06-26T12:14:36.848+05:30  INFO 21740 --- [SpringDatajpaDemo] [restartedMain] c.e.S.SpringDatajpaDemoApplication       : Started SpringDatajpaDemoApplication in 18.105 seconds (process running for 19.432)
+2024-06-26T12:15:34.863+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-26T12:15:34.868+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-26T12:15:34.872+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2024-06-26T12:15:34.915+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-2] c.e.S.Config.ExampleInterseptor          : -----------preHandler----------
+2024-06-26T12:15:34.917+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-2] c.e.S.Config.ExampleInterseptor          : RequestUrl:/swagger-ui.html
+2024-06-26T12:15:34.990+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-2] c.e.S.Config.ExampleInterseptor          : ---------------postHandler------------------
+2024-06-26T12:15:34.990+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-2] c.e.S.Config.ExampleInterseptor          : Request URI :/swagger-ui.html
+2024-06-26T12:15:34.991+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-2] c.e.S.Config.ExampleInterseptor          : --------------afterCompletion----------------
+2024-06-26T12:15:34.991+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-2] c.e.S.Config.ExampleInterseptor          : Request URI :/swagger-ui.html
+2024-06-26T12:15:34.991+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-2] c.e.S.Config.ExampleInterseptor          : executed Time==74
+2024-06-26T12:15:35.012+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-3] c.e.S.Config.ExampleInterseptor          : -----------preHandler----------
+2024-06-26T12:15:35.013+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-3] c.e.S.Config.ExampleInterseptor          : RequestUrl:/swagger-ui/index.html
+2024-06-26T12:15:35.022+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-3] c.e.S.Config.ExampleInterseptor          : ---------------postHandler------------------
+2024-06-26T12:15:35.022+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-3] c.e.S.Config.ExampleInterseptor          : Request URI :/swagger-ui/index.html
+2024-06-26T12:15:35.024+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-3] c.e.S.Config.ExampleInterseptor          : --------------afterCompletion----------------
+2024-06-26T12:15:35.024+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-3] c.e.S.Config.ExampleInterseptor          : Request URI :/swagger-ui/index.html
+2024-06-26T12:15:35.025+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-3] c.e.S.Config.ExampleInterseptor          : executed Time==11
+2024-06-26T12:15:35.078+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] c.e.S.Config.ExampleInterseptor          : -----------preHandler----------
+2024-06-26T12:15:35.078+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] c.e.S.Config.ExampleInterseptor          : RequestUrl:/swagger-ui/swagger-ui.css
+2024-06-26T12:15:35.079+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-5] c.e.S.Config.ExampleInterseptor          : -----------preHandler----------
+2024-06-26T12:15:35.079+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-5] c.e.S.Config.ExampleInterseptor          : RequestUrl:/swagger-ui/index.css
+2024-06-26T12:15:35.085+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-5] c.e.S.Config.ExampleInterseptor          : ---------------postHandler------------------
+2024-06-26T12:15:35.087+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-5] c.e.S.Config.ExampleInterseptor          : Request URI :/swagger-ui/index.css
+2024-06-26T12:15:35.087+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-5] c.e.S.Config.ExampleInterseptor          : --------------afterCompletion----------------
+2024-06-26T12:15:35.087+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-5] c.e.S.Config.ExampleInterseptor          : Request URI :/swagger-ui/index.css
+2024-06-26T12:15:35.087+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-5] c.e.S.Config.ExampleInterseptor          : executed Time==8
+2024-06-26T12:15:35.091+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-5] c.e.S.Config.ExampleInterseptor          : -----------preHandler----------
+2024-06-26T12:15:35.091+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-5] c.e.S.Config.ExampleInterseptor          : RequestUrl:/swagger-ui/swagger-ui-bundle.js
+2024-06-26T12:15:35.092+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-6] c.e.S.Config.ExampleInterseptor          : -----------preHandler----------
+2024-06-26T12:15:35.094+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-6] c.e.S.Config.ExampleInterseptor          : RequestUrl:/swagger-ui/swagger-ui-standalone-preset.js
+2024-06-26T12:15:35.100+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-4] c.e.S.Config.ExampleInterseptor          : -----------preHandler----------
+2024-06-26T12:15:35.100+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-4] c.e.S.Config.ExampleInterseptor          : RequestUrl:/swagger-ui/swagger-initializer.js
+2024-06-26T12:15:35.102+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] c.e.S.Config.ExampleInterseptor          : ---------------postHandler------------------
+2024-06-26T12:15:35.102+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] c.e.S.Config.ExampleInterseptor          : Request URI :/swagger-ui/swagger-ui.css
+2024-06-26T12:15:35.103+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] c.e.S.Config.ExampleInterseptor          : --------------afterCompletion----------------
+2024-06-26T12:15:35.103+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] c.e.S.Config.ExampleInterseptor          : Request URI :/swagger-ui/swagger-ui.css
+2024-06-26T12:15:35.103+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] c.e.S.Config.ExampleInterseptor          : executed Time==25
+2024-06-26T12:15:35.110+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-6] c.e.S.Config.ExampleInterseptor          : ---------------postHandler------------------
+2024-06-26T12:15:35.111+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-6] c.e.S.Config.ExampleInterseptor          : Request URI :/swagger-ui/swagger-ui-standalone-preset.js
+2024-06-26T12:15:35.111+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-6] c.e.S.Config.ExampleInterseptor          : --------------afterCompletion----------------
+2024-06-26T12:15:35.111+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-6] c.e.S.Config.ExampleInterseptor          : Request URI :/swagger-ui/swagger-ui-standalone-preset.js
+2024-06-26T12:15:35.111+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-6] c.e.S.Config.ExampleInterseptor          : executed Time==17
+2024-06-26T12:15:35.172+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-5] c.e.S.Config.ExampleInterseptor          : ---------------postHandler------------------
+2024-06-26T12:15:35.172+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-5] c.e.S.Config.ExampleInterseptor          : Request URI :/swagger-ui/swagger-ui-bundle.js
+2024-06-26T12:15:35.172+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-5] c.e.S.Config.ExampleInterseptor          : --------------afterCompletion----------------
+2024-06-26T12:15:35.172+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-5] c.e.S.Config.ExampleInterseptor          : Request URI :/swagger-ui/swagger-ui-bundle.js
+2024-06-26T12:15:35.188+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-4] c.e.S.Config.ExampleInterseptor          : ---------------postHandler------------------
+2024-06-26T12:15:35.192+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-5] c.e.S.Config.ExampleInterseptor          : executed Time==101
+2024-06-26T12:15:35.193+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-4] c.e.S.Config.ExampleInterseptor          : Request URI :/swagger-ui/swagger-initializer.js
+2024-06-26T12:15:35.193+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-4] c.e.S.Config.ExampleInterseptor          : --------------afterCompletion----------------
+2024-06-26T12:15:35.194+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-4] c.e.S.Config.ExampleInterseptor          : Request URI :/swagger-ui/swagger-initializer.js
+2024-06-26T12:15:35.194+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-4] c.e.S.Config.ExampleInterseptor          : executed Time==94
+2024-06-26T12:15:35.564+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-8] c.e.S.Config.ExampleInterseptor          : -----------preHandler----------
+2024-06-26T12:15:35.564+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-8] c.e.S.Config.ExampleInterseptor          : RequestUrl:/v3/api-docs/swagger-config
+2024-06-26T12:15:35.573+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-9] c.e.S.Config.ExampleInterseptor          : -----------preHandler----------
+2024-06-26T12:15:35.574+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-9] c.e.S.Config.ExampleInterseptor          : RequestUrl:/swagger-ui/favicon-32x32.png
+2024-06-26T12:15:35.578+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-9] c.e.S.Config.ExampleInterseptor          : ---------------postHandler------------------
+2024-06-26T12:15:35.578+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-9] c.e.S.Config.ExampleInterseptor          : Request URI :/swagger-ui/favicon-32x32.png
+2024-06-26T12:15:35.578+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-8] c.e.S.Config.ExampleInterseptor          : ---------------postHandler------------------
+2024-06-26T12:15:35.579+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-8] c.e.S.Config.ExampleInterseptor          : Request URI :/v3/api-docs/swagger-config
+2024-06-26T12:15:35.579+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-9] c.e.S.Config.ExampleInterseptor          : --------------afterCompletion----------------
+2024-06-26T12:15:35.580+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-9] c.e.S.Config.ExampleInterseptor          : Request URI :/swagger-ui/favicon-32x32.png
+2024-06-26T12:15:35.581+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-9] c.e.S.Config.ExampleInterseptor          : executed Time==7
+2024-06-26T12:15:35.580+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-8] c.e.S.Config.ExampleInterseptor          : --------------afterCompletion----------------
+2024-06-26T12:15:35.582+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-8] c.e.S.Config.ExampleInterseptor          : Request URI :/v3/api-docs/swagger-config
+2024-06-26T12:15:35.585+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-8] c.e.S.Config.ExampleInterseptor          : executed Time==21
+2024-06-26T12:15:35.613+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-10] c.e.S.Config.ExampleInterseptor          : -----------preHandler----------
+2024-06-26T12:15:35.613+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-10] c.e.S.Config.ExampleInterseptor          : RequestUrl:/v3/api-docs
+2024-06-26T12:15:36.337+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-10] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 695 ms
+2024-06-26T12:15:36.402+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-10] c.e.S.Config.ExampleInterseptor          : ---------------postHandler------------------
+2024-06-26T12:15:36.402+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-10] c.e.S.Config.ExampleInterseptor          : Request URI :/v3/api-docs
+2024-06-26T12:15:36.402+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-10] c.e.S.Config.ExampleInterseptor          : --------------afterCompletion----------------
+2024-06-26T12:15:36.403+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-10] c.e.S.Config.ExampleInterseptor          : Request URI :/v3/api-docs
+2024-06-26T12:15:36.403+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-10] c.e.S.Config.ExampleInterseptor          : executed Time==790
+2024-06-26T12:17:41.932+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-5] c.e.S.Config.ExampleInterseptor          : -----------preHandler----------
+2024-06-26T12:17:41.933+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-5] c.e.S.Config.ExampleInterseptor          : RequestUrl:/jpa/add
+2024-06-26T12:17:41.968+05:30 TRACE 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-5] c.e.S.Controller.EmployeeController      : Employee added successfully
+2024-06-26T12:17:42.428+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-5] c.e.S.Config.ExampleInterseptor          : ---------------postHandler------------------
+2024-06-26T12:17:42.428+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-5] c.e.S.Config.ExampleInterseptor          : Request URI :/jpa/add
+2024-06-26T12:17:42.429+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-5] c.e.S.Config.ExampleInterseptor          : --------------afterCompletion----------------
+2024-06-26T12:17:42.429+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-5] c.e.S.Config.ExampleInterseptor          : Request URI :/jpa/add
+2024-06-26T12:17:42.429+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-5] c.e.S.Config.ExampleInterseptor          : executed Time==495
+2024-06-26T12:18:06.421+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-9] c.e.S.Config.ExampleInterseptor          : -----------preHandler----------
+2024-06-26T12:18:06.421+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-9] c.e.S.Config.ExampleInterseptor          : RequestUrl:/jpa/1
+2024-06-26T12:18:06.423+05:30  WARN 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-9] c.e.S.Controller.EmployeeController      : Emp details by id retrived
+2024-06-26T12:18:06.451+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-9] c.e.S.Config.ExampleInterseptor          : ---------------postHandler------------------
+2024-06-26T12:18:06.451+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-9] c.e.S.Config.ExampleInterseptor          : Request URI :/jpa/1
+2024-06-26T12:18:06.452+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-9] c.e.S.Config.ExampleInterseptor          : --------------afterCompletion----------------
+2024-06-26T12:18:06.452+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-9] c.e.S.Config.ExampleInterseptor          : Request URI :/jpa/1
+2024-06-26T12:18:06.453+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-9] c.e.S.Config.ExampleInterseptor          : executed Time==31
+2024-06-26T12:19:53.060+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-10] c.e.S.Config.ExampleInterseptor          : -----------preHandler----------
+2024-06-26T12:19:53.060+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-10] c.e.S.Config.ExampleInterseptor          : RequestUrl:/jpa/d/It
+2024-06-26T12:19:53.072+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-10] c.e.S.Config.ExampleInterseptor          : ---------------postHandler------------------
+2024-06-26T12:19:53.073+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-10] c.e.S.Config.ExampleInterseptor          : Request URI :/jpa/d/It
+2024-06-26T12:19:53.073+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-10] c.e.S.Config.ExampleInterseptor          : --------------afterCompletion----------------
+2024-06-26T12:19:53.073+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-10] c.e.S.Config.ExampleInterseptor          : Request URI :/jpa/d/It
+2024-06-26T12:19:53.073+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-10] c.e.S.Config.ExampleInterseptor          : executed Time==12
+2024-06-26T12:35:02.518+05:30  WARN 21740 --- [SpringDatajpaDemo] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=53s48ms278µs100ns).
+2024-06-26T12:35:12.764+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-7] c.e.S.Config.ExampleInterseptor          : -----------preHandler----------
+2024-06-26T12:35:12.765+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-7] c.e.S.Config.ExampleInterseptor          : RequestUrl:/v3/api-docs
+2024-06-26T12:35:13.706+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-7] c.e.S.Config.ExampleInterseptor          : ---------------postHandler------------------
+2024-06-26T12:35:13.707+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-7] c.e.S.Config.ExampleInterseptor          : Request URI :/v3/api-docs
+2024-06-26T12:35:13.738+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-7] c.e.S.Config.ExampleInterseptor          : --------------afterCompletion----------------
+2024-06-26T12:35:13.738+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-7] c.e.S.Config.ExampleInterseptor          : Request URI :/v3/api-docs
+2024-06-26T12:35:13.738+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-7] c.e.S.Config.ExampleInterseptor          : executed Time==972
+2024-06-26T12:35:14.053+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] c.e.S.Config.ExampleInterseptor          : -----------preHandler----------
+2024-06-26T12:35:14.054+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] c.e.S.Config.ExampleInterseptor          : RequestUrl:/favicon.ico
+2024-06-26T12:35:14.328+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] c.e.S.Config.ExampleInterseptor          : --------------afterCompletion----------------
+2024-06-26T12:35:14.329+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] c.e.S.Config.ExampleInterseptor          : Request URI :/favicon.ico
+2024-06-26T12:35:14.330+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] c.e.S.Config.ExampleInterseptor          : executed Time==275
+2024-06-26T12:35:14.746+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] c.e.S.Config.ExampleInterseptor          : -----------preHandler----------
+2024-06-26T12:35:14.747+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] c.e.S.Config.ExampleInterseptor          : RequestUrl:/error
+2024-06-26T12:35:14.919+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] c.e.S.Config.ExampleInterseptor          : ---------------postHandler------------------
+2024-06-26T12:35:14.920+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] c.e.S.Config.ExampleInterseptor          : Request URI :/error
+2024-06-26T12:35:14.922+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] c.e.S.Config.ExampleInterseptor          : --------------afterCompletion----------------
+2024-06-26T12:35:14.924+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] c.e.S.Config.ExampleInterseptor          : Request URI :/error
+2024-06-26T12:35:14.929+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] c.e.S.Config.ExampleInterseptor          : executed Time==182
+2024-06-26T12:36:02.743+05:30  INFO 21740 --- [SpringDatajpaDemo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-06-26T12:36:02.933+05:30  INFO 21740 --- [SpringDatajpaDemo] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-26T12:36:03.039+05:30  INFO 21740 --- [SpringDatajpaDemo] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-06-26T12:36:03.183+05:30  INFO 21740 --- [SpringDatajpaDemo] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-06-26T12:36:04.022+05:30  INFO 21740 --- [SpringDatajpaDemo] [restartedMain] c.e.S.SpringDatajpaDemoApplication       : Starting SpringDatajpaDemoApplication using Java 21 with PID 21740 (C:\Users\ADMIN\Downloads\SpringDatajpaDemo\target\classes started by ADMIN in C:\Users\ADMIN\Downloads\SpringDatajpaDemo)
+2024-06-26T12:36:04.025+05:30  INFO 21740 --- [SpringDatajpaDemo] [restartedMain] c.e.S.SpringDatajpaDemoApplication       : The following 1 profile is active: "h2"
+2024-06-26T12:36:06.902+05:30  INFO 21740 --- [SpringDatajpaDemo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-26T12:36:06.955+05:30  INFO 21740 --- [SpringDatajpaDemo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46 ms. Found 1 JPA repository interface.
+2024-06-26T12:36:08.937+05:30  INFO 21740 --- [SpringDatajpaDemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-06-26T12:36:08.940+05:30  INFO 21740 --- [SpringDatajpaDemo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-26T12:36:08.943+05:30  INFO 21740 --- [SpringDatajpaDemo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-06-26T12:36:09.032+05:30  INFO 21740 --- [SpringDatajpaDemo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-26T12:36:09.034+05:30  INFO 21740 --- [SpringDatajpaDemo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4986 ms
+2024-06-26T12:36:09.264+05:30  INFO 21740 --- [SpringDatajpaDemo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-06-26T12:36:09.468+05:30  INFO 21740 --- [SpringDatajpaDemo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7929c036
+2024-06-26T12:36:09.469+05:30  INFO 21740 --- [SpringDatajpaDemo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-06-26T12:36:09.470+05:30  INFO 21740 --- [SpringDatajpaDemo] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/kk'
+2024-06-26T12:36:09.743+05:30  INFO 21740 --- [SpringDatajpaDemo] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-26T12:36:09.801+05:30  INFO 21740 --- [SpringDatajpaDemo] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-06-26T12:36:09.891+05:30  INFO 21740 --- [SpringDatajpaDemo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-26T12:36:09.905+05:30  WARN 21740 --- [SpringDatajpaDemo] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-26T12:36:09.914+05:30  WARN 21740 --- [SpringDatajpaDemo] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-06-26T12:36:10.226+05:30  INFO 21740 --- [SpringDatajpaDemo] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-26T12:36:10.372+05:30  INFO 21740 --- [SpringDatajpaDemo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-26T12:36:11.029+05:30  WARN 21740 --- [SpringDatajpaDemo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-26T12:36:12.407+05:30  INFO 21740 --- [SpringDatajpaDemo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-26T12:36:12.426+05:30  INFO 21740 --- [SpringDatajpaDemo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoints beneath base path '/actuator'
+2024-06-26T12:36:12.514+05:30  INFO 21740 --- [SpringDatajpaDemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-06-26T12:36:12.532+05:30  INFO 21740 --- [SpringDatajpaDemo] [restartedMain] c.e.S.SpringDatajpaDemoApplication       : Started SpringDatajpaDemoApplication in 8.645 seconds (process running for 1315.135)
+2024-06-26T12:36:12.545+05:30  INFO 21740 --- [SpringDatajpaDemo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-06-26T12:36:20.675+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-26T12:36:20.675+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-26T12:36:20.680+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2024-06-26T12:36:20.689+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] c.e.S.Config.ExampleInterseptor          : -----------preHandler----------
+2024-06-26T12:36:20.690+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] c.e.S.Config.ExampleInterseptor          : RequestUrl:/swagger-ui/index.html
+2024-06-26T12:36:20.705+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] c.e.S.Config.ExampleInterseptor          : ---------------postHandler------------------
+2024-06-26T12:36:20.706+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] c.e.S.Config.ExampleInterseptor          : Request URI :/swagger-ui/index.html
+2024-06-26T12:36:20.706+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] c.e.S.Config.ExampleInterseptor          : --------------afterCompletion----------------
+2024-06-26T12:36:20.707+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] c.e.S.Config.ExampleInterseptor          : Request URI :/swagger-ui/index.html
+2024-06-26T12:36:20.707+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] c.e.S.Config.ExampleInterseptor          : executed Time==16
+2024-06-26T12:36:20.806+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-2] c.e.S.Config.ExampleInterseptor          : -----------preHandler----------
+2024-06-26T12:36:20.807+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-2] c.e.S.Config.ExampleInterseptor          : RequestUrl:/swagger-ui/swagger-initializer.js
+2024-06-26T12:36:20.814+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-2] c.e.S.Config.ExampleInterseptor          : ---------------postHandler------------------
+2024-06-26T12:36:20.814+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-2] c.e.S.Config.ExampleInterseptor          : Request URI :/swagger-ui/swagger-initializer.js
+2024-06-26T12:36:20.815+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-2] c.e.S.Config.ExampleInterseptor          : --------------afterCompletion----------------
+2024-06-26T12:36:20.815+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-2] c.e.S.Config.ExampleInterseptor          : Request URI :/swagger-ui/swagger-initializer.js
+2024-06-26T12:36:20.815+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-2] c.e.S.Config.ExampleInterseptor          : executed Time==8
+2024-06-26T12:36:22.344+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-5] c.e.S.Config.ExampleInterseptor          : -----------preHandler----------
+2024-06-26T12:36:22.344+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-5] c.e.S.Config.ExampleInterseptor          : RequestUrl:/v3/api-docs/swagger-config
+2024-06-26T12:36:22.378+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-5] c.e.S.Config.ExampleInterseptor          : ---------------postHandler------------------
+2024-06-26T12:36:22.379+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-5] c.e.S.Config.ExampleInterseptor          : Request URI :/v3/api-docs/swagger-config
+2024-06-26T12:36:22.379+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-5] c.e.S.Config.ExampleInterseptor          : --------------afterCompletion----------------
+2024-06-26T12:36:22.379+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-5] c.e.S.Config.ExampleInterseptor          : Request URI :/v3/api-docs/swagger-config
+2024-06-26T12:36:22.380+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-5] c.e.S.Config.ExampleInterseptor          : executed Time==34
+2024-06-26T12:36:22.464+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-3] c.e.S.Config.ExampleInterseptor          : -----------preHandler----------
+2024-06-26T12:36:22.465+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-3] c.e.S.Config.ExampleInterseptor          : RequestUrl:/v3/api-docs
+2024-06-26T12:36:23.305+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-3] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 825 ms
+2024-06-26T12:36:23.322+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-3] c.e.S.Config.ExampleInterseptor          : ---------------postHandler------------------
+2024-06-26T12:36:23.323+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-3] c.e.S.Config.ExampleInterseptor          : Request URI :/v3/api-docs
+2024-06-26T12:36:23.323+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-3] c.e.S.Config.ExampleInterseptor          : --------------afterCompletion----------------
+2024-06-26T12:36:23.324+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-3] c.e.S.Config.ExampleInterseptor          : Request URI :/v3/api-docs
+2024-06-26T12:36:23.324+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-3] c.e.S.Config.ExampleInterseptor          : executed Time==859
+2024-06-26T12:36:38.129+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-7] c.e.S.Config.ExampleInterseptor          : -----------preHandler----------
+2024-06-26T12:36:38.130+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-7] c.e.S.Config.ExampleInterseptor          : RequestUrl:/swagger-ui.html
+2024-06-26T12:36:38.138+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-7] c.e.S.Config.ExampleInterseptor          : ---------------postHandler------------------
+2024-06-26T12:36:38.140+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-7] c.e.S.Config.ExampleInterseptor          : Request URI :/swagger-ui.html
+2024-06-26T12:36:38.143+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-7] c.e.S.Config.ExampleInterseptor          : --------------afterCompletion----------------
+2024-06-26T12:36:38.144+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-7] c.e.S.Config.ExampleInterseptor          : Request URI :/swagger-ui.html
+2024-06-26T12:36:38.144+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-7] c.e.S.Config.ExampleInterseptor          : executed Time==14
+2024-06-26T12:36:38.380+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-9] c.e.S.Config.ExampleInterseptor          : -----------preHandler----------
+2024-06-26T12:36:38.380+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-9] c.e.S.Config.ExampleInterseptor          : RequestUrl:/swagger-ui/swagger-initializer.js
+2024-06-26T12:36:38.389+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-9] c.e.S.Config.ExampleInterseptor          : ---------------postHandler------------------
+2024-06-26T12:36:38.389+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-9] c.e.S.Config.ExampleInterseptor          : Request URI :/swagger-ui/swagger-initializer.js
+2024-06-26T12:36:38.390+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-9] c.e.S.Config.ExampleInterseptor          : --------------afterCompletion----------------
+2024-06-26T12:36:38.391+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-9] c.e.S.Config.ExampleInterseptor          : Request URI :/swagger-ui/swagger-initializer.js
+2024-06-26T12:36:38.393+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-9] c.e.S.Config.ExampleInterseptor          : executed Time==13
+2024-06-26T12:36:38.656+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-8] c.e.S.Config.ExampleInterseptor          : -----------preHandler----------
+2024-06-26T12:36:38.657+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-8] c.e.S.Config.ExampleInterseptor          : RequestUrl:/v3/api-docs/swagger-config
+2024-06-26T12:36:38.660+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-8] c.e.S.Config.ExampleInterseptor          : ---------------postHandler------------------
+2024-06-26T12:36:38.660+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-8] c.e.S.Config.ExampleInterseptor          : Request URI :/v3/api-docs/swagger-config
+2024-06-26T12:36:38.665+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-8] c.e.S.Config.ExampleInterseptor          : --------------afterCompletion----------------
+2024-06-26T12:36:38.669+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-8] c.e.S.Config.ExampleInterseptor          : Request URI :/v3/api-docs/swagger-config
+2024-06-26T12:36:38.669+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-8] c.e.S.Config.ExampleInterseptor          : executed Time==12
+2024-06-26T12:36:38.709+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-4] c.e.S.Config.ExampleInterseptor          : -----------preHandler----------
+2024-06-26T12:36:38.710+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-4] c.e.S.Config.ExampleInterseptor          : RequestUrl:/v3/api-docs
+2024-06-26T12:36:38.724+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-4] c.e.S.Config.ExampleInterseptor          : ---------------postHandler------------------
+2024-06-26T12:36:38.724+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-4] c.e.S.Config.ExampleInterseptor          : Request URI :/v3/api-docs
+2024-06-26T12:36:38.725+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-4] c.e.S.Config.ExampleInterseptor          : --------------afterCompletion----------------
+2024-06-26T12:36:38.725+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-4] c.e.S.Config.ExampleInterseptor          : Request URI :/v3/api-docs
+2024-06-26T12:36:38.725+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-4] c.e.S.Config.ExampleInterseptor          : executed Time==15
+2024-06-26T12:37:05.687+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] c.e.S.Config.ExampleInterseptor          : -----------preHandler----------
+2024-06-26T12:37:05.689+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] c.e.S.Config.ExampleInterseptor          : RequestUrl:/v3/api-docs
+2024-06-26T12:37:05.704+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] c.e.S.Config.ExampleInterseptor          : ---------------postHandler------------------
+2024-06-26T12:37:05.704+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] c.e.S.Config.ExampleInterseptor          : Request URI :/v3/api-docs
+2024-06-26T12:37:05.707+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] c.e.S.Config.ExampleInterseptor          : --------------afterCompletion----------------
+2024-06-26T12:37:05.711+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] c.e.S.Config.ExampleInterseptor          : Request URI :/v3/api-docs
+2024-06-26T12:37:05.712+05:30  INFO 21740 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] c.e.S.Config.ExampleInterseptor          : executed Time==22
+2024-06-26T12:44:01.171+05:30  INFO 30896 --- [SpringDatajpaDemo] [restartedMain] c.e.S.SpringDatajpaDemoApplication       : Starting SpringDatajpaDemoApplication using Java 21 with PID 30896 (C:\Users\ADMIN\Downloads\SpringDatajpaDemo\target\classes started by ADMIN in C:\Users\ADMIN\Downloads\SpringDatajpaDemo)
+2024-06-26T12:44:01.180+05:30  INFO 30896 --- [SpringDatajpaDemo] [restartedMain] c.e.S.SpringDatajpaDemoApplication       : The following 1 profile is active: "h2"
+2024-06-26T12:44:01.384+05:30  INFO 30896 --- [SpringDatajpaDemo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-26T12:44:01.385+05:30  INFO 30896 --- [SpringDatajpaDemo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-26T12:44:05.466+05:30  INFO 30896 --- [SpringDatajpaDemo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-26T12:44:05.667+05:30  INFO 30896 --- [SpringDatajpaDemo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 166 ms. Found 1 JPA repository interface.
+2024-06-26T12:44:08.116+05:30  INFO 30896 --- [SpringDatajpaDemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-06-26T12:44:08.169+05:30  INFO 30896 --- [SpringDatajpaDemo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-26T12:44:08.170+05:30  INFO 30896 --- [SpringDatajpaDemo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-06-26T12:44:08.346+05:30  INFO 30896 --- [SpringDatajpaDemo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-26T12:44:08.348+05:30  INFO 30896 --- [SpringDatajpaDemo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6960 ms
+2024-06-26T12:44:08.797+05:30  INFO 30896 --- [SpringDatajpaDemo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-26T12:44:09.845+05:30  INFO 30896 --- [SpringDatajpaDemo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5b52f684
+2024-06-26T12:44:09.853+05:30  INFO 30896 --- [SpringDatajpaDemo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-26T12:44:09.878+05:30  INFO 30896 --- [SpringDatajpaDemo] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/kk'
+2024-06-26T12:44:10.570+05:30  INFO 30896 --- [SpringDatajpaDemo] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-26T12:44:10.828+05:30  INFO 30896 --- [SpringDatajpaDemo] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-26T12:44:10.942+05:30  INFO 30896 --- [SpringDatajpaDemo] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-06-26T12:44:11.908+05:30  INFO 30896 --- [SpringDatajpaDemo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-26T12:44:12.113+05:30  WARN 30896 --- [SpringDatajpaDemo] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-26T12:44:12.117+05:30  WARN 30896 --- [SpringDatajpaDemo] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-06-26T12:44:14.059+05:30  INFO 30896 --- [SpringDatajpaDemo] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-26T12:44:14.193+05:30  INFO 30896 --- [SpringDatajpaDemo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-26T12:44:15.926+05:30  WARN 30896 --- [SpringDatajpaDemo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-26T12:44:18.936+05:30  INFO 30896 --- [SpringDatajpaDemo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-26T12:44:18.967+05:30  INFO 30896 --- [SpringDatajpaDemo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoints beneath base path '/actuator'
+2024-06-26T12:44:19.190+05:30  INFO 30896 --- [SpringDatajpaDemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-06-26T12:44:19.222+05:30  INFO 30896 --- [SpringDatajpaDemo] [restartedMain] c.e.S.SpringDatajpaDemoApplication       : Started SpringDatajpaDemoApplication in 19.806 seconds (process running for 23.442)
+2024-06-26T12:48:13.234+05:30  INFO 24924 --- [SpringDatajpaDemo] [restartedMain] c.e.S.SpringDatajpaDemoApplication       : Starting SpringDatajpaDemoApplication using Java 21 with PID 24924 (C:\Users\ADMIN\Downloads\SpringDatajpaDemo\target\classes started by ADMIN in C:\Users\ADMIN\Downloads\SpringDatajpaDemo)
+2024-06-26T12:48:13.244+05:30  INFO 24924 --- [SpringDatajpaDemo] [restartedMain] c.e.S.SpringDatajpaDemoApplication       : The following 1 profile is active: "h2"
+2024-06-26T12:48:13.460+05:30  INFO 24924 --- [SpringDatajpaDemo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-26T12:48:13.461+05:30  INFO 24924 --- [SpringDatajpaDemo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-26T12:48:18.592+05:30  INFO 24924 --- [SpringDatajpaDemo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-26T12:48:18.904+05:30  INFO 24924 --- [SpringDatajpaDemo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 282 ms. Found 1 JPA repository interface.
+2024-06-26T12:48:21.881+05:30  INFO 24924 --- [SpringDatajpaDemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-06-26T12:48:21.930+05:30  INFO 24924 --- [SpringDatajpaDemo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-26T12:48:21.932+05:30  INFO 24924 --- [SpringDatajpaDemo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-06-26T12:48:22.126+05:30  INFO 24924 --- [SpringDatajpaDemo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-26T12:48:22.135+05:30  INFO 24924 --- [SpringDatajpaDemo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 8671 ms
+2024-06-26T12:48:22.640+05:30  INFO 24924 --- [SpringDatajpaDemo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-26T12:48:23.944+05:30  INFO 24924 --- [SpringDatajpaDemo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1c03e42e
+2024-06-26T12:48:23.952+05:30  INFO 24924 --- [SpringDatajpaDemo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-26T12:48:23.984+05:30  INFO 24924 --- [SpringDatajpaDemo] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/kk'
+2024-06-26T12:48:24.879+05:30  INFO 24924 --- [SpringDatajpaDemo] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-26T12:48:25.116+05:30  INFO 24924 --- [SpringDatajpaDemo] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-26T12:48:25.227+05:30  INFO 24924 --- [SpringDatajpaDemo] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-06-26T12:48:26.289+05:30  INFO 24924 --- [SpringDatajpaDemo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-26T12:48:26.488+05:30  WARN 24924 --- [SpringDatajpaDemo] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-26T12:48:26.491+05:30  WARN 24924 --- [SpringDatajpaDemo] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-06-26T12:48:28.334+05:30  INFO 24924 --- [SpringDatajpaDemo] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-26T12:48:28.509+05:30  INFO 24924 --- [SpringDatajpaDemo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-26T12:48:30.467+05:30  WARN 24924 --- [SpringDatajpaDemo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-26T12:48:33.603+05:30  INFO 24924 --- [SpringDatajpaDemo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-26T12:48:33.657+05:30  INFO 24924 --- [SpringDatajpaDemo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoints beneath base path '/actuator'
+2024-06-26T12:48:34.154+05:30  INFO 24924 --- [SpringDatajpaDemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-06-26T12:48:34.207+05:30  INFO 24924 --- [SpringDatajpaDemo] [restartedMain] c.e.S.SpringDatajpaDemoApplication       : Started SpringDatajpaDemoApplication in 22.242 seconds (process running for 23.789)
+2024-06-26T12:50:04.411+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-26T12:50:04.441+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-26T12:50:04.465+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 17 ms
+2024-06-26T12:50:04.613+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] c.e.S.Config.ExampleInterseptor          : -----------preHandler----------
+2024-06-26T12:50:04.620+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] c.e.S.Config.ExampleInterseptor          : RequestUrl:/swagger-ui.html
+2024-06-26T12:50:04.894+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] c.e.S.Config.ExampleInterseptor          : ---------------postHandler------------------
+2024-06-26T12:50:04.894+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] c.e.S.Config.ExampleInterseptor          : Request URI :/swagger-ui.html
+2024-06-26T12:50:04.895+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] c.e.S.Config.ExampleInterseptor          : --------------afterCompletion----------------
+2024-06-26T12:50:04.897+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] c.e.S.Config.ExampleInterseptor          : Request URI :/swagger-ui.html
+2024-06-26T12:50:04.897+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] c.e.S.Config.ExampleInterseptor          : executed Time==276
+2024-06-26T12:50:05.051+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-2] c.e.S.Config.ExampleInterseptor          : -----------preHandler----------
+2024-06-26T12:50:05.053+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-2] c.e.S.Config.ExampleInterseptor          : RequestUrl:/swagger-ui/swagger-initializer.js
+2024-06-26T12:50:05.429+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-2] c.e.S.Config.ExampleInterseptor          : ---------------postHandler------------------
+2024-06-26T12:50:05.438+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-2] c.e.S.Config.ExampleInterseptor          : Request URI :/swagger-ui/swagger-initializer.js
+2024-06-26T12:50:05.439+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-2] c.e.S.Config.ExampleInterseptor          : --------------afterCompletion----------------
+2024-06-26T12:50:05.440+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-2] c.e.S.Config.ExampleInterseptor          : Request URI :/swagger-ui/swagger-initializer.js
+2024-06-26T12:50:05.440+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-2] c.e.S.Config.ExampleInterseptor          : executed Time==386
+2024-06-26T12:50:05.860+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-3] c.e.S.Config.ExampleInterseptor          : -----------preHandler----------
+2024-06-26T12:50:05.861+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-3] c.e.S.Config.ExampleInterseptor          : RequestUrl:/v3/api-docs/swagger-config
+2024-06-26T12:50:05.888+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-3] c.e.S.Config.ExampleInterseptor          : ---------------postHandler------------------
+2024-06-26T12:50:05.890+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-3] c.e.S.Config.ExampleInterseptor          : Request URI :/v3/api-docs/swagger-config
+2024-06-26T12:50:05.891+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-3] c.e.S.Config.ExampleInterseptor          : --------------afterCompletion----------------
+2024-06-26T12:50:05.891+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-3] c.e.S.Config.ExampleInterseptor          : Request URI :/v3/api-docs/swagger-config
+2024-06-26T12:50:05.891+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-3] c.e.S.Config.ExampleInterseptor          : executed Time==30
+2024-06-26T12:50:06.006+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-4] c.e.S.Config.ExampleInterseptor          : -----------preHandler----------
+2024-06-26T12:50:06.011+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-4] c.e.S.Config.ExampleInterseptor          : RequestUrl:/v3/api-docs
+2024-06-26T12:50:07.764+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 1470 ms
+2024-06-26T12:50:07.905+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-4] c.e.S.Config.ExampleInterseptor          : ---------------postHandler------------------
+2024-06-26T12:50:07.905+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-4] c.e.S.Config.ExampleInterseptor          : Request URI :/v3/api-docs
+2024-06-26T12:50:07.906+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-4] c.e.S.Config.ExampleInterseptor          : --------------afterCompletion----------------
+2024-06-26T12:50:07.906+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-4] c.e.S.Config.ExampleInterseptor          : Request URI :/v3/api-docs
+2024-06-26T12:50:07.907+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-4] c.e.S.Config.ExampleInterseptor          : executed Time==1896
+2024-06-26T12:51:30.871+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-6] c.e.S.Config.ExampleInterseptor          : -----------preHandler----------
+2024-06-26T12:51:30.872+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-6] c.e.S.Config.ExampleInterseptor          : RequestUrl:/jpa/add
+2024-06-26T12:51:30.944+05:30 TRACE 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-6] c.e.S.Controller.EmployeeController      : Employee added successfully
+2024-06-26T12:51:31.641+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-6] c.e.S.Config.ExampleInterseptor          : ---------------postHandler------------------
+2024-06-26T12:51:31.642+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-6] c.e.S.Config.ExampleInterseptor          : Request URI :/jpa/add
+2024-06-26T12:51:31.643+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-6] c.e.S.Config.ExampleInterseptor          : --------------afterCompletion----------------
+2024-06-26T12:51:31.644+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-6] c.e.S.Config.ExampleInterseptor          : Request URI :/jpa/add
+2024-06-26T12:51:31.644+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-6] c.e.S.Config.ExampleInterseptor          : executed Time==771
+2024-06-26T13:45:33.222+05:30  INFO 24924 --- [SpringDatajpaDemo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-06-26T13:45:33.664+05:30  INFO 24924 --- [SpringDatajpaDemo] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-26T13:45:33.829+05:30  INFO 24924 --- [SpringDatajpaDemo] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-06-26T13:45:33.939+05:30  INFO 24924 --- [SpringDatajpaDemo] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-06-26T13:45:35.486+05:30  INFO 24924 --- [SpringDatajpaDemo] [restartedMain] c.e.S.SpringDatajpaDemoApplication       : Starting SpringDatajpaDemoApplication using Java 21 with PID 24924 (C:\Users\ADMIN\Downloads\SpringDatajpaDemo\target\classes started by ADMIN in C:\Users\ADMIN\Downloads\SpringDatajpaDemo)
+2024-06-26T13:45:35.490+05:30  INFO 24924 --- [SpringDatajpaDemo] [restartedMain] c.e.S.SpringDatajpaDemoApplication       : The following 1 profile is active: "h2"
+2024-06-26T13:45:37.854+05:30  INFO 24924 --- [SpringDatajpaDemo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-26T13:45:37.888+05:30  INFO 24924 --- [SpringDatajpaDemo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31 ms. Found 1 JPA repository interface.
+2024-06-26T13:45:38.686+05:30  INFO 24924 --- [SpringDatajpaDemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-06-26T13:45:38.697+05:30  INFO 24924 --- [SpringDatajpaDemo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-26T13:45:38.698+05:30  INFO 24924 --- [SpringDatajpaDemo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-06-26T13:45:38.872+05:30  INFO 24924 --- [SpringDatajpaDemo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-26T13:45:38.876+05:30  INFO 24924 --- [SpringDatajpaDemo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3374 ms
+2024-06-26T13:45:39.299+05:30  INFO 24924 --- [SpringDatajpaDemo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-06-26T13:45:39.365+05:30  INFO 24924 --- [SpringDatajpaDemo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4be064c4
+2024-06-26T13:45:39.366+05:30  INFO 24924 --- [SpringDatajpaDemo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-06-26T13:45:39.374+05:30  INFO 24924 --- [SpringDatajpaDemo] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/kk'
+2024-06-26T13:45:39.791+05:30  INFO 24924 --- [SpringDatajpaDemo] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-26T13:45:39.822+05:30  INFO 24924 --- [SpringDatajpaDemo] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-06-26T13:45:40.003+05:30  INFO 24924 --- [SpringDatajpaDemo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-26T13:45:40.032+05:30  WARN 24924 --- [SpringDatajpaDemo] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-26T13:45:40.034+05:30  WARN 24924 --- [SpringDatajpaDemo] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-06-26T13:45:40.358+05:30  INFO 24924 --- [SpringDatajpaDemo] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-26T13:45:40.437+05:30  INFO 24924 --- [SpringDatajpaDemo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-26T13:45:42.343+05:30  WARN 24924 --- [SpringDatajpaDemo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-26T13:45:45.448+05:30  INFO 24924 --- [SpringDatajpaDemo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-26T13:45:45.475+05:30  INFO 24924 --- [SpringDatajpaDemo] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoints beneath base path '/actuator'
+2024-06-26T13:45:45.610+05:30  INFO 24924 --- [SpringDatajpaDemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-06-26T13:45:45.659+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-26T13:45:45.660+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-26T13:45:45.665+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2024-06-26T13:45:45.688+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] c.e.S.Config.ExampleInterseptor          : -----------preHandler----------
+2024-06-26T13:45:45.690+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] c.e.S.Config.ExampleInterseptor          : RequestUrl:/swagger-ui/index.html
+2024-06-26T13:45:45.717+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] c.e.S.Config.ExampleInterseptor          : ---------------postHandler------------------
+2024-06-26T13:45:45.718+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] c.e.S.Config.ExampleInterseptor          : Request URI :/swagger-ui/index.html
+2024-06-26T13:45:45.719+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] c.e.S.Config.ExampleInterseptor          : --------------afterCompletion----------------
+2024-06-26T13:45:45.719+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] c.e.S.Config.ExampleInterseptor          : Request URI :/swagger-ui/index.html
+2024-06-26T13:45:45.721+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] c.e.S.Config.ExampleInterseptor          : executed Time==28
+2024-06-26T13:45:45.749+05:30  INFO 24924 --- [SpringDatajpaDemo] [restartedMain] c.e.S.SpringDatajpaDemoApplication       : Started SpringDatajpaDemoApplication in 10.607 seconds (process running for 3455.331)
+2024-06-26T13:45:45.771+05:30  INFO 24924 --- [SpringDatajpaDemo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-06-26T13:45:45.879+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-2] c.e.S.Config.ExampleInterseptor          : -----------preHandler----------
+2024-06-26T13:45:45.880+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-2] c.e.S.Config.ExampleInterseptor          : RequestUrl:/swagger-ui/swagger-initializer.js
+2024-06-26T13:45:45.898+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-2] c.e.S.Config.ExampleInterseptor          : ---------------postHandler------------------
+2024-06-26T13:45:45.899+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-2] c.e.S.Config.ExampleInterseptor          : Request URI :/swagger-ui/swagger-initializer.js
+2024-06-26T13:45:45.900+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-2] c.e.S.Config.ExampleInterseptor          : --------------afterCompletion----------------
+2024-06-26T13:45:45.900+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-2] c.e.S.Config.ExampleInterseptor          : Request URI :/swagger-ui/swagger-initializer.js
+2024-06-26T13:45:45.900+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-2] c.e.S.Config.ExampleInterseptor          : executed Time==19
+2024-06-26T13:45:46.390+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-3] c.e.S.Config.ExampleInterseptor          : -----------preHandler----------
+2024-06-26T13:45:46.390+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-3] c.e.S.Config.ExampleInterseptor          : RequestUrl:/v3/api-docs/swagger-config
+2024-06-26T13:45:46.415+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-3] c.e.S.Config.ExampleInterseptor          : ---------------postHandler------------------
+2024-06-26T13:45:46.416+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-3] c.e.S.Config.ExampleInterseptor          : Request URI :/v3/api-docs/swagger-config
+2024-06-26T13:45:46.416+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-3] c.e.S.Config.ExampleInterseptor          : --------------afterCompletion----------------
+2024-06-26T13:45:46.417+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-3] c.e.S.Config.ExampleInterseptor          : Request URI :/v3/api-docs/swagger-config
+2024-06-26T13:45:46.417+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-3] c.e.S.Config.ExampleInterseptor          : executed Time==26
+2024-06-26T13:45:46.505+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-5] c.e.S.Config.ExampleInterseptor          : -----------preHandler----------
+2024-06-26T13:45:46.506+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-5] c.e.S.Config.ExampleInterseptor          : RequestUrl:/v3/api-docs
+2024-06-26T13:45:47.135+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-5] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 617 ms
+2024-06-26T13:45:47.152+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-5] c.e.S.Config.ExampleInterseptor          : ---------------postHandler------------------
+2024-06-26T13:45:47.153+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-5] c.e.S.Config.ExampleInterseptor          : Request URI :/v3/api-docs
+2024-06-26T13:45:47.154+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-5] c.e.S.Config.ExampleInterseptor          : --------------afterCompletion----------------
+2024-06-26T13:45:47.154+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-5] c.e.S.Config.ExampleInterseptor          : Request URI :/v3/api-docs
+2024-06-26T13:45:47.154+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-5] c.e.S.Config.ExampleInterseptor          : executed Time==648
+2024-06-26T13:45:57.176+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-7] c.e.S.Config.ExampleInterseptor          : -----------preHandler----------
+2024-06-26T13:45:57.177+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-7] c.e.S.Config.ExampleInterseptor          : RequestUrl:/swagger-ui.html
+2024-06-26T13:45:57.183+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-7] c.e.S.Config.ExampleInterseptor          : ---------------postHandler------------------
+2024-06-26T13:45:57.185+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-7] c.e.S.Config.ExampleInterseptor          : Request URI :/swagger-ui.html
+2024-06-26T13:45:57.186+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-7] c.e.S.Config.ExampleInterseptor          : --------------afterCompletion----------------
+2024-06-26T13:45:57.187+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-7] c.e.S.Config.ExampleInterseptor          : Request URI :/swagger-ui.html
+2024-06-26T13:45:57.187+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-7] c.e.S.Config.ExampleInterseptor          : executed Time==10
+2024-06-26T13:45:57.631+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-8] c.e.S.Config.ExampleInterseptor          : -----------preHandler----------
+2024-06-26T13:45:57.631+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-8] c.e.S.Config.ExampleInterseptor          : RequestUrl:/swagger-ui/swagger-initializer.js
+2024-06-26T13:45:57.638+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-8] c.e.S.Config.ExampleInterseptor          : ---------------postHandler------------------
+2024-06-26T13:45:57.639+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-8] c.e.S.Config.ExampleInterseptor          : Request URI :/swagger-ui/swagger-initializer.js
+2024-06-26T13:45:57.641+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-8] c.e.S.Config.ExampleInterseptor          : --------------afterCompletion----------------
+2024-06-26T13:45:57.642+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-8] c.e.S.Config.ExampleInterseptor          : Request URI :/swagger-ui/swagger-initializer.js
+2024-06-26T13:45:57.642+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-8] c.e.S.Config.ExampleInterseptor          : executed Time==11
+2024-06-26T13:45:57.978+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-10] c.e.S.Config.ExampleInterseptor          : -----------preHandler----------
+2024-06-26T13:45:57.979+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-10] c.e.S.Config.ExampleInterseptor          : RequestUrl:/v3/api-docs/swagger-config
+2024-06-26T13:45:57.989+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-10] c.e.S.Config.ExampleInterseptor          : ---------------postHandler------------------
+2024-06-26T13:45:57.990+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-10] c.e.S.Config.ExampleInterseptor          : Request URI :/v3/api-docs/swagger-config
+2024-06-26T13:45:57.990+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-10] c.e.S.Config.ExampleInterseptor          : --------------afterCompletion----------------
+2024-06-26T13:45:57.991+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-10] c.e.S.Config.ExampleInterseptor          : Request URI :/v3/api-docs/swagger-config
+2024-06-26T13:45:57.991+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-10] c.e.S.Config.ExampleInterseptor          : executed Time==12
+2024-06-26T13:45:58.039+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] c.e.S.Config.ExampleInterseptor          : -----------preHandler----------
+2024-06-26T13:45:58.041+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] c.e.S.Config.ExampleInterseptor          : RequestUrl:/v3/api-docs
+2024-06-26T13:45:58.054+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] c.e.S.Config.ExampleInterseptor          : ---------------postHandler------------------
+2024-06-26T13:45:58.055+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] c.e.S.Config.ExampleInterseptor          : Request URI :/v3/api-docs
+2024-06-26T13:45:58.056+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] c.e.S.Config.ExampleInterseptor          : --------------afterCompletion----------------
+2024-06-26T13:45:58.056+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] c.e.S.Config.ExampleInterseptor          : Request URI :/v3/api-docs
+2024-06-26T13:45:58.056+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-1] c.e.S.Config.ExampleInterseptor          : executed Time==15
+2024-06-26T13:46:19.998+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-3] c.e.S.Config.ExampleInterseptor          : -----------preHandler----------
+2024-06-26T13:46:20.000+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-3] c.e.S.Config.ExampleInterseptor          : RequestUrl:/jpa/25
+2024-06-26T13:46:20.006+05:30  WARN 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-3] c.e.S.Controller.EmployeeController      : Emp details by id retrived
+2024-06-26T13:46:20.070+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-3] c.e.S.Config.ExampleInterseptor          : --------------afterCompletion----------------
+2024-06-26T13:46:20.070+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-3] c.e.S.Config.ExampleInterseptor          : Request URI :/jpa/25
+2024-06-26T13:46:20.070+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-3] c.e.S.Config.ExampleInterseptor          : executed Time==70
+2024-06-26T13:46:20.073+05:30 ERROR 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: javax.security.auth.login.AccountNotFoundException: user id not found] with root cause
+
+javax.security.auth.login.AccountNotFoundException: user id not found
+	at com.example.SpringDatajpaDemo.Service.EmployeeService.findby(EmployeeService.java:45) ~[classes/:na]
+	at com.example.SpringDatajpaDemo.Controller.EmployeeController.findEmp(EmployeeController.java:60) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.10.jar:6.1.10]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.25.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.25.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.25.jar:10.1.25]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.10.jar:6.1.10]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.10.jar:6.1.10]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.10.jar:6.1.10]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.10.jar:6.1.10]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:107) ~[spring-web-6.1.10.jar:6.1.10]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.10.jar:6.1.10]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.10.jar:6.1.10]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.10.jar:6.1.10]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2024-06-26T13:46:20.188+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-3] c.e.S.Config.ExampleInterseptor          : -----------preHandler----------
+2024-06-26T13:46:20.188+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-3] c.e.S.Config.ExampleInterseptor          : RequestUrl:/error
+2024-06-26T13:46:20.224+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-3] c.e.S.Config.ExampleInterseptor          : ---------------postHandler------------------
+2024-06-26T13:46:20.225+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-3] c.e.S.Config.ExampleInterseptor          : Request URI :/error
+2024-06-26T13:46:20.225+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-3] c.e.S.Config.ExampleInterseptor          : --------------afterCompletion----------------
+2024-06-26T13:46:20.225+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-3] c.e.S.Config.ExampleInterseptor          : Request URI :/error
+2024-06-26T13:46:20.225+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-3] c.e.S.Config.ExampleInterseptor          : executed Time==37
+2024-06-26T13:46:52.750+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-5] c.e.S.Config.ExampleInterseptor          : -----------preHandler----------
+2024-06-26T13:46:52.753+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-5] c.e.S.Config.ExampleInterseptor          : RequestUrl:/jpa/2
+2024-06-26T13:46:52.755+05:30  WARN 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-5] c.e.S.Controller.EmployeeController      : Emp details by id retrived
+2024-06-26T13:46:52.803+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-5] c.e.S.Config.ExampleInterseptor          : ---------------postHandler------------------
+2024-06-26T13:46:52.804+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-5] c.e.S.Config.ExampleInterseptor          : Request URI :/jpa/2
+2024-06-26T13:46:52.804+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-5] c.e.S.Config.ExampleInterseptor          : --------------afterCompletion----------------
+2024-06-26T13:46:52.805+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-5] c.e.S.Config.ExampleInterseptor          : Request URI :/jpa/2
+2024-06-26T13:46:52.805+05:30  INFO 24924 --- [SpringDatajpaDemo] [http-nio-8080-exec-5] c.e.S.Config.ExampleInterseptor          : executed Time==52
+2024-06-26T14:27:46.804+05:30  WARN 24924 --- [SpringDatajpaDemo] [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=37m7s236ms273µs300ns).
